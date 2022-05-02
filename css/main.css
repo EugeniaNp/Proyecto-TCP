@@ -1,0 +1,102 @@
+.indexTitulo {
+  color: #a57667; }
+
+.formularioAdopcion {
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  padding: 2em;
+  border: #7daa7b solid;
+  margin: auto;
+  font-family: 'Baskervville', serif; }
+  .formularioAdopcion .sectionContacto {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 2em;
+    border-top: #7daa7b solid;
+    margin: 50px auto; }
+  .formularioAdopcion .experiencia {
+    display: flex;
+    box-sizing: border-box;
+    font-family: 'Baskervville', serif;
+    padding: 3.5em;
+    font-size: 1em; }
+  .formularioAdopcion .contactoFormulario {
+    max-width: 1208px;
+    max-width: 30.5rem;
+    color: #a57667; }
+  .formularioAdopcion .contactoFormularioDos {
+    max-width: 1208px;
+    max-width: 30.5rem;
+    color: #a57667; }
+  .formularioAdopcion .contacto, .formularioAdopcion label, .formularioAdopcion input[name="submit"] {
+    position: relative; }
+  .formularioAdopcion label > span, .formularioAdopcion input, .formularioAdopcion textarea, .formularioAdopcion button {
+    box-sizing: border-box;
+    font-family: 'Baskervville', serif; }
+  .formularioAdopcion input, .formularioAdopcion textarea, .formularioAdopcion button {
+    width: 100%;
+    padding: 0.5em;
+    border: none; }
+  .formularioAdopcion input[type="text"], .formularioAdopcion input[type="email"], .formularioAdopcion textarea, .formularioAdopcion input[type="DNI"], .formularioAdopcion input[type="Telefono de contacto"] {
+    margin: 0 0 1em;
+    border: 1px solid #ccc;
+    outline: none;
+    font-family: 'Baskervville', serif;
+    color: #a57667; }
+  .formularioAdopcion input.invalid, .formularioAdopcion textarea.invalid {
+    border-color: #d5144d; }
+  .formularioAdopcion textarea {
+    height: 6em; }
+  .formularioAdopcion input[type="submit"], .formularioAdopcion button {
+    transition: all .5s;
+    background: #a57667;
+    color: #333; }
+  .formularioAdopcion input[type="submit"]:hover, .formularioAdopcion button:hover {
+    background: #7daa7b; }
+
+.sectionContacto {
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  justify-content: space-evenly;
+  padding: 2em;
+  border-top: #7daa7b solid;
+  margin: 50px auto; }
+  .sectionContacto .contactoFormulario {
+    max-width: 1208px;
+    max-width: 30.5rem;
+    color: #a57667; }
+  .sectionContacto .experiencia {
+    display: flex;
+    box-sizing: border-box;
+    font-family: 'Baskervville', serif;
+    padding: 3.5em;
+    font-size: 1em; }
+  .sectionContacto .contacto, .sectionContacto label, .sectionContacto input[name="submit"] {
+    position: relative; }
+  .sectionContacto label > span, .sectionContacto input, .sectionContacto textarea, .sectionContacto button {
+    box-sizing: border-box;
+    font-family: 'Baskervville', serif; }
+  .sectionContacto input, .sectionContacto textarea, .sectionContacto button {
+    width: 100%;
+    padding: 0.5em;
+    border: none; }
+  .sectionContacto input[type="text"], .sectionContacto input[type="email"], .sectionContacto textarea, .sectionContacto input[type="DNI"], .sectionContacto input[type="Telefono de contacto"] {
+    margin: 0 0 1em;
+    border: 1px solid #ccc;
+    outline: none;
+    font-family: 'Baskervville', serif;
+    color: #a57667; }
+  .sectionContacto input.invalid, .sectionContacto textarea.invalid {
+    border-color: #d5144d; }
+  .sectionContacto textarea {
+    height: 6em; }
+  .sectionContacto input[type="submit"], .sectionContacto button {
+    transition: all .5s;
+    background: #a57667;
+    color: #333; }
+  .sectionContacto input[type="submit"]:hover, .sectionContacto button:hover {
+    background: #7daa7b; }
