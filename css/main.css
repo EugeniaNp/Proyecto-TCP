@@ -1,6 +1,177 @@
 .indexTitulo {
   color: #a57667; }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.logoImg {
+  max-width: 20%;
+  max-height: 20%; }
+
+body {
+  background-color: #ffeddc; }
+
+.caratula {
+  display: flex;
+  padding: 1.8em;
+  justify-content: center; }
+
+.indexTitulo {
+  font-size: 30px;
+  font-family: 'Baskervville', serif;
+  font-weight: 00;
+  color: #a57667;
+  margin: 10px 40px;
+  text-align: center; }
+
+.infoAdopcion {
+  display: flex;
+  flex-wrap: nowrap;
+  box-sizing: border-box;
+  background-color: white;
+  color: #a57667;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  font-family: 'Baskervville', serif;
+  font-size: medium;
+  border: #7daa7b solid;
+  height: 350px; }
+
+.infoUno {
+  margin: 4em;
+  padding: 4em; }
+
+.infoDos {
+  margin: 4em;
+  padding: 4em; }
+
+.navGrid {
+  width: 100%;
+  margin: 0 auto;
+  background: white;
+  border: 2px solid #7daa7b;
+  font-family: 'Baskervville', serif;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); }
+  .navGrid ul {
+    list-style: none;
+    text-align: center; }
+    .navGrid ul li {
+      display: inline-block; }
+      .navGrid ul li a {
+        display: block;
+        padding: 15px;
+        text-decoration: none;
+        color: #a57667;
+        font-weight: 800;
+        text-transform: uppercase;
+        margin: 0 10px; }
+
+.navGrid ul li a,
+.navGrid ul li a:after,
+.navGrid ul li a:before {
+  transition: all .5s; }
+
+.navGrid ul li a:hover {
+  color: #7daa7b; }
+
+.otraInfo {
+  display: grid;
+  grid-template-columns: 30em 30em;
+  column-gap: 15em;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  background-color: white;
+  color: #a57667;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Baskervville', serif;
+  font-size: medium;
+  border: #7daa7b solid;
+  margin: 50px auto;
+  padding: 100px 200px; }
+
+.condicionesAdopcion {
+  display: grid;
+  grid-area: condicionesAdopcion;
+  grid-template-columns: 32em;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  background-color: white;
+  color: #a57667;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Baskervville', serif;
+  font-size: medium;
+  border: #7daa7b solid;
+  margin: 50px auto;
+  padding: 100px 200px; }
+
+.imgGatos {
+  font-family: 'Baskervville', serif;
+  width: 95%;
+  margin-left: auto;
+  padding: 40px 180px; }
+
+a {
+  color: #a57667;
+  text-decoration: underline;
+  text-decoration: none; }
+  a :hover {
+    color: #7daa7b; }
+
+.imgPerros {
+  font-family: 'Baskervville', serif;
+  width: 95%;
+  margin-left: auto;
+  padding: 40px 180px; }
+
+.footerGrid {
+  text-align: center;
+  font-family: 'Baskervville', serif;
+  color: #a57667;
+  border-top: 2px solid #7daa7b;
+  height: 50px; }
+
+.mediaImg {
+  display: grid;
+  display: flex;
+  grid-template-columns: 1em 1em 1em;
+  column-gap: 5em;
+  padding: 20px 80px;
+  margin-left: auto;
+  justify-content: center; }
+  .mediaImg a {
+    transition: all .4s ease-in-out; }
+  .mediaImg a:hover {
+    transform: scale(1.2); }
+
+.headerGrid {
+  grid-area: headerGrid; }
+
+.navGrid {
+  grid-area: navGrid; }
+
+.mainGrid {
+  grid-area: mainGrid; }
+
+.sectionGrid {
+  grid-area: sectionGrid; }
+
+.footerGrid {
+  grid-area: footerGrid; }
+
+.contenedor {
+  display: grid;
+  grid-template-areas: "headerGrid " " navGrid"  "mainGrid" "sectionGrid" "footerGrid";
+  justify-content: center; }
+
+.flexBoxStart {
+  display: flex;
+  justify-content: flex-start; }
+
 .formularioAdopcion {
   display: flex;
   background-color: white;
@@ -100,3 +271,19 @@
     color: #333; }
   .sectionContacto input[type="submit"]:hover, .sectionContacto button:hover {
     background: #7daa7b; }
+
+@media only screen and (max-width: 600px) {
+  .infoAdopcion {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    background-color: white;
+    color: #a57667;
+    justify-content: space-between;
+    text-align: center;
+    font-family: 'Baskervville', serif;
+    font-size: medium;
+    border: #7daa7b solid;
+    /* margin: 50px auto; */
+    /* padding: 100px 500px; */
+    height: 350px; } }
