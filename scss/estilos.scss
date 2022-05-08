@@ -15,6 +15,9 @@ $colorHuno: #a57667;
   max-height: 20%;
 }
 
+body{
+  background-color: #ffeddc;
+}
 
 //index//
 
@@ -22,7 +25,7 @@ $colorHuno: #a57667;
   display: flex;
   padding: 1.8em;
   justify-content: center;
-  
+
 }
 
 .indexTitulo{
@@ -406,25 +409,7 @@ justify-content: flex-start;
   
 //formulario 
   
-  //map-gap y maxin//
-
-  $standard:(
-    bg-stard: #ffeddc,
-  );
-
- body{
-   background-color: map-get($map: standard, $key: bg-stard );
- }
-
-
-  @mixin size ($width, $height) {
-    width: $width;
-    height: $height;
-  }
-  
-.caratula{
-  @include size(500px, 500px);
-}
+ 
  
 //map-gap y maxin//
 
