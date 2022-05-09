@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="kaywords" content="adopcion ,html , mascotas ,perro ,gato" />
+    <meta name="Description" content="TCP se formó con el fin de poder rescatar, rehabilitar y luego dar en adopción aquellos perros, gatos abandonados o maltratados." />
     <title>The Central Pets - Formularios</title>
 
     <!-- link para el css -->
@@ -21,18 +22,28 @@
 
 
 <body>
-     <header>
+  <div class="contenedorFormularios">
+ 
 
-  <!--logo-->
+    <header class="headerGrid">
+      <!--logo-->
 
-  <a href="../index.html">
-  <img src="../IMG/Crema y Marrón Elegante Líneas Simples Artes y Manualidades Logotipo.png" alt="Ir a Home"  class="logoImg" >
-  </a>
+      <div class="flexBoxStart">
+
+        <img
+          src="../img/Crema y Marrón Elegante Líneas Simples Artes y Manualidades Logotipo.png"
+          alt="Home"
+          class="logoImg"/>
+
+      </div>
 
 <!--frase logo-->
-  <h1 class="indexTitulo" >Encontrá a tu Mejor Amigo/a </h1>
 
-    </header>
+<h1 class="indexTitulo">Encontrá a tu Mejor Amigo/a</h1>
+
+
+   </header>
+
 
     <!--menu-->
 
@@ -51,16 +62,17 @@
 
 <!--info adopciones -->
 
-<section class="otraInfo">
+<section class="sectionGrid">
+<div class="otraInfo" >
 
-
-  <div>
+  <div class="infoUno">
       <h2> A tener en cuenta! </h2>
  
       <p> Se entrevista a los posibles candidatos para cada adopción. Para poder adoptar es necesario ser mayor de edad, tener el consentimiento de todos los integrantes de la familia y acreditar su identidad mediante la presentación del documento de identidad. También se exige la copia de cualquier servicio a nombre del adoptante para poder cotejar la veracidad del domicilio.</p>
  
      </div>
-     <div>
+     <div class="infoDos">
+       
       <h2> Seguimientos!</h2>
  
       <p>Cada animal se entrega en adopción con una chapa identificadora que tiene números de contacto del grupo y un número que corresponde al animal adoptado. Una vez que se efectuó la adopción, se vuelca esa información a una base de datos, que permite tener acceso a la información para llevar a cabo los seguimientos.
@@ -68,15 +80,15 @@
      Se realizan varios llamados a lo largo del tiempo para ver cómo se adaptó a su nuevo hogar.
      </span></p> 
   </div>
- 
+  </div>
  </section>
  
 
 
 <!--formulario de adopcion-->
 
-<section class="formularioAdopcion ">
-
+<section class="sectionGridDos" >
+<div class="formularioAdopcion ">
   <div class="contactoFormulario">
 	
   <p class="experiencia" >
@@ -120,7 +132,8 @@
     
   </form>
   </div>
-  </section>
+  </div>
+</section>
 
 
 
@@ -140,6 +153,6 @@
   </div>
   </footer>
 
-
+</div>
 </body>
 </html>

@@ -11,9 +11,11 @@ $colorHuno: #a57667;
 }
 
 .logoImg{
-  max-width: 20%;
-  max-height: 20%;
+  max-width: 19em;
+  max-height: 19em; 
 }
+
+
 
 body{
   background-color: #ffeddc;
@@ -54,12 +56,13 @@ body{
 
 .infoUno{
 margin: 4em ;
-padding: 4em ;
+padding: 2em  ;
+
 }
 
 .infoDos{
 margin: 4em ;
-padding: 4em ;
+padding: 2em ;
 
 }
 
@@ -107,20 +110,17 @@ padding: 4em ;
 //contacto//
 
 .otraInfo{
-      display: grid;
-      grid-template-columns: 30em 30em  ;
-      column-gap: 15em;
-      flex-wrap: wrap;
-      box-sizing: border-box ;
-      background-color: white;
-      color: $colorHuno;
-      justify-content: center; 
-      text-align: center;
-      font-family: 'Baskervville', serif;
-      font-size: medium;
-      border: #7daa7b solid;
-      margin: 50px auto;
-      padding: 100px 200px;
+  display: flex;
+  background-color: white;
+  color: $colorHuno;
+  justify-content: space-between;
+  align-items: center; 
+  text-align: center;
+  font-family: 'Baskervville', serif;
+  font-size: medium;
+  border: #7daa7b solid;
+  height: 350px;
+  margin: 3em auto;
   
 }
 
@@ -204,7 +204,7 @@ a:hover{
 }
 //footer//
 
-// GRID INDEX //
+// GRID //
 
 .headerGrid{
 grid-area: headerGrid;
@@ -222,6 +222,14 @@ grid-area: mainGrid;
 grid-area: sectionGrid;
 }
 
+.sectionGridDos{
+  grid-area: sectionGridDos;
+  }
+
+  .sectionGridTres{
+    grid-area: sectionGridTres;
+    }
+
 .footerGrid{
 grid-area: footerGrid;
 }
@@ -234,28 +242,49 @@ grid-template-areas: "headerGrid "
                   "mainGrid"
                   "sectionGrid"
                   "footerGrid";
-
-justify-content: center;                   
+                 
 }
 
-.flexBoxStart{
-display: flex;
-justify-content: flex-start;
+.contenedorFormularios{
+
+display: grid;
+grid-template-areas: "headerGrid "
+                  " navGrid" 
+                  "sectionGrid"
+                  "sectionGridDos"
+                  "footerGrid";
+                 
 
 }
 
-// GRID INDEX //
+
+.contenedorContacto{
+
+  display: grid;
+grid-template-areas: "headerGrid "
+                  " navGrid" 
+                  "sectionGrid"
+                  "sectionGridDos"
+                  "sectionGridTres"
+                  "footerGrid";
+                 
+
+}
+
+
+// GRID //
 
 
 //formulario //
 
 .formularioAdopcion{
     display: flex;
+
     background-color: white;
     justify-content: center;
     padding: 2em;
     border: #7daa7b solid;
-    margin: auto;
+    
     font-family: 'Baskervville', serif;
 
 .sectionContacto{
@@ -410,28 +439,45 @@ justify-content: flex-start;
 //formulario 
   
  
- 
-//map-gap y maxin//
 
-@media only screen and (max-width: 600px) {
- 
-  .infoAdopcion{
-      display: flex;
-      flex-wrap: wrap;
-      box-sizing: border-box;
-      background-color: white;
-      color: #a57667;
-      justify-content: space-between;
-      text-align: center;
-      font-family: 'Baskervville', serif;
-      font-size: medium;
-      border: #7daa7b solid;
-      /* margin: 50px auto; */
-      /* padding: 100px 500px; */
-      height: 350px;
-}
+
+@media only screen and (max-width: 768px){
+  body{
+    background: #d5144d;
+  }
+
+
+  .flexBoxStart{
+    display: flex;
+    justify-content: center;
+  }
   
-} 
+.caratula{
+  display: flex;
+  flex-direction: column ;
+}
+
+  .infoAdopcion{
+    display: flex;
+    flex-direction: column ;
+    height: 35em;
+  }
+  .otraInfo{
+    display: flex;
+    flex-direction: column ;
+    height: 40em;
+  }
+
+  .sectionContacto{
+    display: flex;
+    flex-direction: column ;
+    height: 70em;
+    align-items: center;
+    
+  }
+
+  }
+
 
 
 
