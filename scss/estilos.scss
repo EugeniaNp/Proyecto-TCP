@@ -232,6 +232,14 @@ grid-area: sectionGrid;
     grid-area: sectionGridTres;
     }
 
+.sectionGridGatos{
+  grid-area:sectionGridGatos ;
+}
+
+.sectionGridPerros {
+  grid-area: sectionGridPerros;
+}
+
 .footerGrid{
 grid-area: footerGrid;
 }
@@ -251,19 +259,25 @@ grid-template-areas: "headerGrid "
 
 display: grid;
 grid-template-areas: "headerGrid "
-                  " navGrid" 
+                   " navGrid" 
                   "sectionGrid"
                   "sectionGridDos"
                   "footerGrid";
                  
-
 }
 
+.contenedorGatos{
+  display: grid;
+ grid-template-areas : "headerGrid" 
+                       "navGrid"
+                       "sectionGridGatos"
+                       "footerGrid";
+}
 
 .contenedorContacto{
 
   display: grid;
-grid-template-areas: "headerGrid "
+  grid-template-areas: "headerGrid "
                   " navGrid" 
                   "sectionGrid"
                   "sectionGridDos"
@@ -273,6 +287,15 @@ grid-template-areas: "headerGrid "
 
 }
 
+
+
+.contenedorPerros{
+  display: grid;
+  grid-template-areas: "headerGrid"
+                          "navGrid"
+                          "sectionGridPerros"
+                          "footerGrid";
+}
 
 // GRID //
 

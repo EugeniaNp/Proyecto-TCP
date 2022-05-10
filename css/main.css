@@ -162,6 +162,12 @@ a {
 .sectionGridTres {
   grid-area: sectionGridTres; }
 
+.sectionGridGatos {
+  grid-area: sectionGridGatos; }
+
+.sectionGridPerros {
+  grid-area: sectionGridPerros; }
+
 .footerGrid {
   grid-area: footerGrid; }
 
@@ -173,9 +179,17 @@ a {
   display: grid;
   grid-template-areas: "headerGrid " " navGrid"  "sectionGrid" "sectionGridDos" "footerGrid"; }
 
+.contenedorGatos {
+  display: grid;
+  grid-template-areas: "headerGrid"  "navGrid" "sectionGridGatos" "footerGrid"; }
+
 .contenedorContacto {
   display: grid;
   grid-template-areas: "headerGrid " " navGrid"  "sectionGrid" "sectionGridDos" "sectionGridTres" "footerGrid"; }
+
+.contenedorPerros {
+  display: grid;
+  grid-template-areas: "headerGrid" "navGrid" "sectionGridPerros" "footerGrid"; }
 
 .formularioAdopcion {
   display: flex;
