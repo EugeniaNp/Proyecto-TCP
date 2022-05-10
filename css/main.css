@@ -3,8 +3,7 @@
 
 * {
   margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
+  padding: 0; }
 
 .logoImg {
   max-width: 19em;
@@ -278,8 +277,6 @@ a {
     background: #7daa7b; }
 
 @media only screen and (max-width: 768px) {
-  body {
-    background: #d5144d; }
   .flexBoxStart {
     display: flex;
     justify-content: center; }
