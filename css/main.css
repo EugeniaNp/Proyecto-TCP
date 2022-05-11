@@ -6,8 +6,8 @@
   padding: 0; }
 
 .logoImg {
-  max-width: 19em;
-  max-height: 19em; }
+  max-width: 20em;
+  max-height: 20em; }
 
 body {
   background-color: #ffeddc; }
@@ -20,7 +20,6 @@ body {
 .indexTitulo {
   font-size: 30px;
   font-family: 'Baskervville', serif;
-  font-weight: 00;
   color: #a57667;
   margin: 10px 40px;
   text-align: center; }
